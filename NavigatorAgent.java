@@ -49,11 +49,11 @@ public class NavigatorAgent extends Agent {
 				String situation = msg.getContent();
 
 				if(situation.contains("pit")) {
-					finalMessage += "";
+					finalMessage += "Turn right";
 				} else if (situation.contains("breeze")) {
-					finalMessage += "";
+					finalMessage += "Turn left";
 				} else if (situation.contains("snatch")) {
-					finalMessage += "";
+					finalMessage += "Turn left";
 				} else if (situation.contains("wampus")) {
 					finalMessage += "Go shoot him!";
 				} else if (situation.contains("gold")) {
